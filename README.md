@@ -62,7 +62,7 @@ A2/
 ├── logout.php              # Encerramento seguro da sessão
 ├── sessao.php              # Bloqueio de páginas para usuários não logados
 └── style.css               # Variáveis e configurações globais de estilo
-
+```
 
 🚀 Como Executar o Projeto (Instalação)
 Siga os passos abaixo para rodar o gerenciador de tarefas na sua máquina:
