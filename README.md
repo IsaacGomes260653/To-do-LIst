@@ -62,3 +62,39 @@ A2/
 ├── logout.php              # Encerramento seguro da sessão
 ├── sessao.php              # Bloqueio de páginas para usuários não logados
 └── style.css               # Variáveis e configurações globais de estilo
+
+🚀 Como Executar o Projeto (Instalação)
+Siga os passos abaixo para rodar o gerenciador de tarefas na sua máquina:
+
+Clone este repositório:
+
+Bash
+git clone [https://github.com/seu-usuario/seu-repositorio-tarefas.git](https://github.com/seu-usuario/seu-repositorio-tarefas.git)
+Prepare o Ambiente:
+
+Certifique-se de ter um servidor local instalado (como o XAMPP).
+
+Inicie os serviços do Apache e MySQL.
+
+Configure o Banco de Dados:
+
+Acesse o gerenciador do seu banco de dados (ex: phpMyAdmin em http://localhost/phpmyadmin).
+
+Crie um banco de dados vazio.
+
+Importe o arquivo banco.sql localizado na raiz do projeto para criar as tabelas e estruturas necessárias automaticamente.
+
+Verifique o arquivo conexao.php para garantir que o nome do banco, usuário (geralmente root) e senha estão corretos para o seu ambiente local.
+
+Execute o Sistema:
+
+Mova a pasta A2 do projeto para o diretório público do seu servidor (ex: pasta htdocs no XAMPP ou www no WAMP).
+
+Abra o navegador e acesse:
+
+Plaintext
+http://localhost/A2/index.php
+👤 Autor
+Desenvolvido com dedicação por [Seu Nome] 🚀
+
+✨ Projeto desenvolvido como aprimoramento de habilidades em desenvolvimento Web Full-Stack, PHP, Segurança e Clean Code.
