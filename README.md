@@ -24,8 +24,9 @@ O sistema conta com tudo o que é necessário para manter sua rotina em dia:
   - **Adicionar**: Inserção rápida de novas tarefas.
   - **Visualizar**: Lista organizada dos afazeres pendentes.
   - **Editar**: Possibilidade de alterar a descrição ou detalhes de uma tarefa já criada.
+  - **Concluir**: Marcação rápida de tarefas finalizadas com o novo recurso de conclusão.
   - **Excluir**: Remoção de tarefas concluídas ou canceladas com apenas um clique.
-- 🎨 **Interface Focada no Usuário**: Design limpo e intuitivo, com feedbacks visuais e ícones para facilitar a navegação.
+- 🎨 **Interface Focada no Usuário**: Design modular (estilos divididos entre login e painel), com feedbacks visuais e ícones para facilitar a navegação.
 
 ---
 
@@ -35,7 +36,7 @@ A aplicação foi construída utilizando as seguintes tecnologias:
 
 - **Back-end:** PHP 8.x
 - **Banco de Dados:** MySQL (utilizando PDO para prevenir SQL Injection)
-- **Front-end:** HTML5 e CSS3 (Design responsivo e animações)
+- **Front-end:** HTML5 e CSS3 (Design responsivo e modular)
 - **Ícones:** [FontAwesome 6.4](https://fontawesome.com/)
 - **Servidor Local:** Apache (compatível com XAMPP, WAMP, etc.)
 
@@ -43,17 +44,21 @@ A aplicação foi construída utilizando as seguintes tecnologias:
 
 ## 📂 Estrutura de Pastas e Arquivos
 
-O projeto está organizado de forma modular para facilitar a manutenção:
+O projeto está organizado de forma modular para facilitar a manutenção e leitura do código:
 
 ```text
-PROJETO_TAREFAS/
-├── tarefas/            # Módulo principal da lista de afazeres
-│   ├── index.php       # Interface principal da lista e formulário
-│   ├── inserir.php     # Back-end: Adiciona ou atualiza uma tarefa
-│   └── excluir.php     # Back-end: Remove uma tarefa do banco
-├── index.php           # Tela inicial de Login
-├── logar.php           # Validação de credenciais de acesso
-├── conexao.php         # Script de conexão com o banco MySQL
-├── sessao.php          # Bloqueio de páginas para usuários não logados
-├── style.css           # Folha de estilos unificada
-└── logout.php          # Encerramento seguro da sessão
+A2/
+├── TAREFA/                 # Módulo principal da lista de afazeres
+│   ├── concluir.php        # Back-end: Altera o status da tarefa para concluída
+│   ├── excluir.php         # Back-end: Remove uma tarefa do banco
+│   ├── index.php           # Interface principal da lista e formulário
+│   ├── inserir.php         # Back-end: Adiciona ou atualiza uma tarefa
+│   └── style_tarefa.css    # Estilização específica do painel de tarefas
+├── banco.sql               # Arquivo com a estrutura do banco de dados (Tabelas)
+├── conexao.php             # Script de conexão segura com o banco MySQL
+├── index.php               # Tela inicial de Login
+├── logar.php               # Validação de credenciais de acesso
+├── login.css               # Estilização exclusiva da página de login
+├── logout.php              # Encerramento seguro da sessão
+├── sessao.php              # Bloqueio de páginas para usuários não logados
+└── style.css               # Variáveis e configurações globais de estilo
