@@ -63,6 +63,7 @@ A2/
 ├── sessao.php              # Bloqueio de páginas para usuários não logados
 └── style.css               # Variáveis e configurações globais de estilo
 
+
 🚀 Como Executar o Projeto (Instalação)
 Siga os passos abaixo para rodar o gerenciador de tarefas na sua máquina:
 
@@ -95,6 +96,6 @@ Abra o navegador e acesse:
 Plaintext
 http://localhost/A2/index.php
 👤 Autor
-Desenvolvido com dedicação por [Seu Nome] 🚀
+Desenvolvido com dedicação por Isaac Gomes de Moraes 🚀
 
 ✨ Projeto desenvolvido como aprimoramento de habilidades em desenvolvimento Web Full-Stack, PHP, Segurança e Clean Code.
