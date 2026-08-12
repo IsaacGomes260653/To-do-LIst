@@ -99,3 +99,33 @@ http://localhost/A2/index.php
 Desenvolvido com dedicação por Isaac Gomes de Moraes 🚀
 
 ✨ Projeto desenvolvido como aprimoramento de habilidades em desenvolvimento Web Full-Stack, PHP, Segurança e Clean Code.
+
+---
+
+# 📝 Task Manager (To-Do List) (English)
+
+> A practical, secure, and elegant web system for organizing daily to-dos, focused on productivity and usability.
+
+## 🎯 About
+
+Built to manage day-to-day routines with a fluid to-do list rather than complex data tables — full user control over what needs to get done, protected by an authentication system.
+
+## 🌟 Features
+
+Restricted access via secure login and session control; full CRUD on tasks (add, view, edit, complete, delete); a user-focused, modular interface with visual feedback and icons.
+
+## 🛠️ Tech stack
+
+Backend: PHP 8.x · Database: MySQL (via PDO, protected against SQL injection) · Frontend: HTML5 & CSS3, responsive and modular · Icons: FontAwesome 6.4 · Local server: Apache (XAMPP/WAMP compatible).
+
+## 🚀 Running it
+
+1. Clone this repository.
+2. Set up a local server (e.g. XAMPP) and start Apache + MySQL.
+3. Create an empty database and import `banco.sql` via phpMyAdmin to create the tables.
+4. Check `conexao.php` for the correct database name, user, and password for your environment.
+5. Move the `A2` folder into your server's public directory (`htdocs` on XAMPP, `www` on WAMP).
+6. Open `http://localhost/A2/index.php`.
+
+## 👤 Author
+Built by Isaac Gomes de Moraes 🚀 — a project developed to strengthen Full-Stack Web, PHP, security, and clean code skills.
